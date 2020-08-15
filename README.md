@@ -1,5 +1,5 @@
-# template-site-vilasorriso
-Template do site Vila Sorriso (icoaraci.com.br)
+# Template do site Icoaraci.com.br
+Template do site Vila Sorriso
 
 O mesmo será utilizado no portal icoaraci, que tem como CMS o workcontrol.
 
