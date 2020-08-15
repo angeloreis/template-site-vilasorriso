@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vila Sorriso - Login</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Nome do site -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <p class="h1 p-5">Vila Sorriso</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu do site -->
+      <div class="container">
+        <hr />
+        <div class="row">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <nav class="menu">
+              <ul class="list-inline list-unstyled m-1">
+                <li class="list-inline-item h6">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="list-inline-item h6">
+                  <a href="category.html">Icoaraci</a>
+                </li>
+                <li class="list-inline-item h6">
+                  <a href="post.html">Augusto Cruz</a>
+                </li>
+                <li class="list-inline-item h6">
+                  <a href="404.html">Agenda Cultural</a>
+                </li>
+                <li class="list-inline-item h6">
+                  <a href="search.html">Pesquisar</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <form class="border rounded m-5 p-5">
+            <div class="form-group">
+              <label for="varEmail">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="varEmail"
+                placeholder="Informe seu e-mail de login"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >Nós não compartilhamos essa informação com ninguém.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="varPassword">Senha: </label>
+              <input
+                type="password"
+                class="form-control"
+                id="varPassword"
+                placeholder="*********"
+              />
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="varCheck" />
+              <label class="form-check-label" for="varCheck">Lembre-me</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <footer class="d-flex justify-content-center">
+          Copyright © 2020 - Desenvolvido por: Angelo Reis
+        </footer>
+      </div>
+    </div>
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(".carousel").carousel({
+        interval: 10000,
+      });
+    </script>
+  </body>
+</html>

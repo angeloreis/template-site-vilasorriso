@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+:root {
+  --main-color-bg: #fff;
+  --main-color-link: #803c0f;
+  --visited-color-link: #572402;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: var(--main-color-link);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--visited-color-link);
+}
+
+input,
+button {
+  border: 1px solid var(--main-color-link);
+  border-radius: 15px;
+}
+
+p.publicidade-titulo {
+  width: 78.6%;
+  margin-bottom: -1px;
+  padding-left: 30px;
+  color: #fff;
+  background: var(--main-color-link);
+  border-radius: 10px 10px 0px 0px;
+}
+
+div.footer {
+  background: #3a3939;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
